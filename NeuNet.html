@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>NeuNet</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='styles.css'/>
+  </head>
+  <body>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <div class="navbar">
+      <ul class="navbar-container">
+        <li class="nav-item"><a href="#section-2" class="left-underline nav-button" data-scroll>About Us</a></li>
+        <li class="nav-item active"><a href="#section-1" class="left-underline nav-button" data-scroll>Pictures</a></li>
+      </ul>
+    </div>
+    <div class="parallax p1" id="section-1">
+      <hgroup>
+        <a href="#" class="left-underline nav-button brand-logo"><img height ='300' width = '300' src='icon.png'></a>
+      </hgroup>
+    </div>
+    <h3 class='desc'>Make neural networks with your voice!</h3>
+    <button class='btn blue' id='bb'>Start Recording</button>
+    <div>
+      <a class = 'row2'><img width = '1100' src='code.png'></a>
+      <a class = 'row3'><img width = '1100' src='sample.png'></a>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <h1>General</h1>
+        <p>Use your voice to build Neural Networks!</p>
+        <p>NeuNet is a rapid model prototyping tool. Simply describe the parameters of your model in plain English and NeuNet will build and train the network for you!</p>
+      </div>
+      <div class="col-3">
+        <h1>Example</h1>
+        <p>‘Give me a UNet with input size of 192 pixels and 4 output classes. Use ReLU nonlinearities and train the model on 25 epochs of the buildings dataset.'</p>
+      </div>
+      <div class="col-3">
+        <h1>Technical</h1>
+        <p>Uses the Google Speech-to-text API to convert voice to text and utilizes language processing techniques to extract the semantic meaning of requested model.</p>
+        <p>Built a wrapper around PyTorch to dynamically construct Neural Networks given a set of hyperparameters.</p>
+        <li>Utilizes advanced design techniques and principles to create a professional logo using Adobe Photoshop</li>
+        <li>Website created from scratch using HTML</li>
+        <li>Formatted and designed layout with CSS</li>
+        <li>Created recording button with Javascript</li>
+
+</p>
+      </div>
+    </div>
+    <footer>
+      <div class="row" id="section-3">
+        <div class="col-3">
+          <p>SadBois() was co-founded by four freshmen: Brian Santoso, Tasman Kuang, William Lu, and Qianwei (Jane) Zhang. In our free time, we enjoy playing pranks on each other. Brian is the mastermind behind most pranks against William, but Brian is no match for Profressor Denero. Professor Denero is our inspiration and plays pranks on us by jokingly giving us bad grades, haha jk...unless??</p>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 SadBois(), All rights reserved.
+        </div>
+      </div>
+    </footer>
+  <script type = 'text/javascript' language='javascript' src="scripts.js"></script>
+  </body>
+</html>
