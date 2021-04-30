@@ -43,6 +43,6 @@ termcolor==1.1.0
 torch==1.3.0
 torchvision==0.4.1
 tzlocal==2.0.0
-urllib3==1.25.6
+urllib3==1.25.8
 Werkzeug==0.16.0
 wrapt==1.11.2
