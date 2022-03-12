@@ -20,7 +20,7 @@ mnist==0.2.2
 numpy==1.17.3
 opt-einsum==3.1.0
 packaging==19.2
-Pillow==6.2.1
+Pillow==9.0.1
 pipwin==0.4.5
 protobuf==3.10.0
 PyAudio==0.2.11
